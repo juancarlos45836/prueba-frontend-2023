@@ -14,8 +14,8 @@ const showText = function() {
 
 // --------------- Solo puedes tocar desde aquí ------------- //
 showText.text = 'Hola';
-showText2 = showText;
-showText2.text = 'Adiós';
+showText2 = Object.assign({},showText);
+showText2.text = 'Adios';
 // --------------- hasta aquí ------------------------------- //
 
 showText.init();  // Hola
