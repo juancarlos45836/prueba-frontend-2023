@@ -1,6 +1,7 @@
 // Ejercicio 1
 // Dada una matriz de N elementos en la que todos los elementos son iguales excepto uno,
 // crea una función findUniq que retorne el elemento único.
+//Comment for initial comment
 
 function findUniq(array) {
 }
