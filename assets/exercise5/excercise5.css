@@ -77,3 +77,75 @@ body {
     opacity: .9;
     cursor: pointer;
 }
+
+/*modal styles*/
+.section-modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.section-modal .content-modal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.section-modal .content-modal .modal {
+
+    width: 80%;
+    height: 80%;
+    background: transparent;
+    opacity: .8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-modal .content-modal .modal .data {
+    width: 90%;
+    height: 90%;
+    background: gray;
+}
+.users-content .box h1 {
+    color: white;
+}
+
+
+.section-modal .content-modal .modal .data-format {
+    font-size: 20px;
+    margin-right: 100px;
+    color: white;
+}
+.section-modal .content-modal .modal .subdata-format {
+    color: white;
+}
+
+.section-modal .content-modal .modal .wrapper {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(50px, auto);
+    background: linear-gradient(135deg, #000328 , #00458e);
+  }
+
+  .section-modal .content-modal .modal .wrapper div p {
+    color: white;
+  }
+
+.section-modal .content-modal .modal .button-close {
+    width: 200px;
+    height: 70px;
+    border-radius: 5px;
+    background: blue;
+    
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+}
