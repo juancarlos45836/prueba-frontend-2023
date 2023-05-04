@@ -1,0 +1,79 @@
+* {
+    top: 0;
+    left: 0;
+}
+body {
+    background: linear-gradient(to top, #0e1c26, #294861);
+}
+.users-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.users-content .box {
+    background: linear-gradient(135deg, #0968e5, #091970);
+    width: 80%;
+    height: auto;
+    margin: 100px ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+}
+.users-content .box h1 {
+    padding: 50px;
+}
+.users-content .box .list {
+    width: 80%;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #000328 , #00458e);
+    opacity: 1;
+}
+
+.users-content .box .list:hover {
+    background: linear-gradient(135deg, #00458e, #000328);
+    opacity: .9;
+    cursor: pointer;
+}
+
+.users-content .box .list .content {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.users-content .box .list .content .id {
+    color: white;
+    margin-right: 30px;
+}
+.users-content .box .list .content .name {
+    color: white
+}
+
+.users-content .box h1 {
+    color: white;
+}
+
+.users-content .box .button {
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #000328 , #00458e);
+    opacity: 1;
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.users-content .box .button:hover {
+    background: linear-gradient(135deg, #00458e, #000328);
+    opacity: .9;
+    cursor: pointer;
+}
