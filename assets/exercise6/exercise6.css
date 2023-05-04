@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Righteous&family=Work+Sans:wght@100;200;300;400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+body{
+    width: 100%;
+    height: auto;
+}
+.section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: linear-gradient(to top, #2c3e50, #ffff);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.section .category {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section .content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.section div article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: auto;
+    padding: 10px; 
+    margin: 10px;
+    border-radius: 20px;
+    border: solid 1px gray;
+    box-shadow: 10px 5px 5px gray;
+    
+}
+
+.section div h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+.section .content article img {
+    border-radius: 20px;
+    width: 90%;
+    height: 300px;
+}
+.section .content article .discount {
+    font-size: 20px;
+    color: red;
+}
+.section .content article p {
+    font-family: 'Lora', serif;
+}
+.section .content article div button {
+    color: white;
+    background-color: black;
+    box-shadow: gray;
+}
